@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Brands>
+  <Brand>
+    <Producer>Aebi</Producer>
+    <Company>Aebi Schmidt Deutschland</Company>
+    <Street>Albtalstraße 36</Street>
+    <CodeCity>79837 St. Blasien</CodeCity>
+    <Phone>07672/4120</Phone>
+    <Fax>07672/412230</Fax>
+    <Internet>www.aebi-schmidt.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Agco</Producer>
+    <Company>Agco GmbH </Company>
+    <Street>Johann-Georg-Fendt-Straße 4</Street>
+    <CodeCity>87616 Marktoberdorf</CodeCity>
+    <Phone>08342/770</Phone>
+    <Fax>08342/77684</Fax>
+    <Internet>www.fendt.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Agco Challenger</Producer>
+    <Company>Agco GmbH </Company>
+    <Street>Johann-Georg-Fendt-Straße 4</Street>
+    <CodeCity>87616 Marktoberdorf</CodeCity>
+    <Phone>08342/770</Phone>
+    <Fax>08342/7798592</Fax>
+    <Internet>www.challenger-ag.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Agromehanika</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>AHWI</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>ATM Terrion</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>BCS</Producer>
+    <Company>Milde GmbH</Company>
+    <Street>Am Weingarten 5</Street>
+    <CodeCity>92274 Gebenbach</CodeCity>
+    <Phone>09622/70060</Phone>
+    <Fax>09622/700640</Fax>
+    <Internet>www.bcsagri.it</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Belarus</Producer>
+    <Company>Belimpex Handels GmbH</Company>
+    <Street>Gräfestraße 33</Street>
+    <CodeCity>04129 Leipzig</CodeCity>
+    <Phone>0341/919250</Phone>
+    <Fax>0341/9192520</Fax>
+    <Internet>www.belimpex.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Bombardier</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Bucher</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Carraro</Producer>
+    <Company>Antonio Carraro</Company>
+    <Street>Via Caltana 24</Street>
+    <CodeCity>I-35011 Campodarsego Padova</CodeCity>
+    <Phone>0039/49/9219921</Phone>
+    <Fax>0039/49/9219922</Fax>
+    <Internet>www.antoniocarraro.it</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Case IH</Producer>
+    <Company>CNH Deutschland GmbH</Company>
+    <Street>Benzstraße 1</Street>
+    <CodeCity>74076 Heilbronn</CodeCity>
+    <Phone>07131/1060</Phone>
+    <Fax>07131/106110</Fax>
+    <Internet>www.caseih.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Case-Steyr</Producer>
+    <Company>CNH Deutschland GmbH</Company>
+    <Street>Benzstraße 1</Street>
+    <CodeCity>74076 Heilbronn</CodeCity>
+    <Phone>07131/64490</Phone>
+    <Fax>07131/6449409</Fax>
+    <Internet>www.steyr-traktoren.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Caterpillar</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Challenger</Producer>
+    <Company>siehe Agco Challenger</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Claas</Producer>
+    <Company>Claas Vertriebsgesellschaft mbH</Company>
+    <Street>Münsterstraße 33</Street>
+    <CodeCity>33428 Harsewinkel</CodeCity>
+    <Phone>05247/120</Phone>
+    <Fax>05247/121188</Fax>
+    <Internet>www.claas.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>DaimlerChrysler</Producer>
+    <Company>Siehe Mercedes-Benz</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>de Pietri</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Deutz-Fahr</Producer>
+    <Company>Same Deutz-Fahr Deutschland  GmbH</Company>
+    <Street>Deutz-Fahr-Straße 1</Street>
+    <CodeCity>89415 Lauingen</CodeCity>
+    <Phone>09072/9970</Phone>
+    <Fax>09072/997594</Fax>
+    <Internet>www.deutz-fahr.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Dexheimer</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Doppstadt</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>DTU</Producer>
+    <Company>Deutsche Traktoren-Union GmbH</Company>
+    <Street>Arnstädter Straße 4</Street>
+    <CodeCity>99326 Stadtilm</CodeCity>
+    <Phone>03629/641767</Phone>
+    <Fax>03629/641815</Fax>
+    <Internet>www.dtu-traktoren.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Ebro</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt, siehe Kubota</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Eicher</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Fendt</Producer>
+    <Company>Agco GmbH </Company>
+    <Street>Johann-Georg-Fendt-Straße 4</Street>
+    <CodeCity>87616 Marktoberdorf</CodeCity>
+    <Phone>08342/770</Phone>
+    <Fax>08342/77684</Fax>
+    <Internet>www.fendt.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Ferrari</Producer>
+    <Company>MKV</Company>
+    <Street>An der Trebe 2</Street>
+    <CodeCity>07751 Rothenstein</CodeCity>
+    <Phone>036424/82045</Phone>
+    <Fax>036424/82079</Fax>
+    <Internet>www.ferrari-traktoren.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Fiatagri</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt, siehe New Holland</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Ford</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt, siehe New Holland</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Fortschritt</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Fuß</Producer>
+    <Company>Fuß Spezialfahrzeugbau GmbH</Company>
+    <Street>Glinder Straße 6</Street>
+    <CodeCity>39218 Schönebeck</CodeCity>
+    <Phone>03928/727730</Phone>
+    <Fax>03928/727739</Fax>
+    <Internet>www.fuss-spezialfahrzeugbau.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Goldoni</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Hako</Producer>
+    <Company>Hako GmbH</Company>
+    <Street>Hamburger Straße 209</Street>
+    <CodeCity>23843 Bad Oldesloe</CodeCity>
+    <Phone>04531/8060</Phone>
+    <Fax>04531/806338</Fax>
+    <Internet>www.hako.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Hieble-Bergmeister</Producer>
+    <Company>Alois Hieble &amp; Co</Company>
+    <Street>Meisenweg 1</Street>
+    <CodeCity>86660 Tapfheim/Donauwörth</CodeCity>
+    <Phone>09070/909960</Phone>
+    <Fax>09070/9099631</Fax>
+    <Internet>www.alois-hieble.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Holder</Producer>
+    <Company>Max Holder GmbH</Company>
+    <Street>Max-Holder-Straße 1</Street>
+    <CodeCity>72555 Metzingen</CodeCity>
+    <Phone>07123/9660</Phone>
+    <Fax>07123/966213</Fax>
+    <Internet>www.holder-gmbh.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Holmer</Producer>
+    <Company>Holmer Maschinenbau GmbH</Company>
+    <Street>Regensburger Straße 20</Street>
+    <CodeCity>84069 Schierling/Eggmühl</CodeCity>
+    <Phone>09451/93030</Phone>
+    <Fax>09451/930364</Fax>
+    <Internet>www.holmer-maschinenbau.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Honda</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Horsch</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Hürlimann</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Iseki</Producer>
+    <Company>Iseki Maschinen GmbH</Company>
+    <Street>Rudolf-Diesel-Straße 4</Street>
+    <CodeCity>40670 Meerbusch</CodeCity>
+    <Phone>02159/52050</Phone>
+    <Fax>02159/520512</Fax>
+    <Internet>www.iseki.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>JCB</Producer>
+    <Company>JCB Deutschland GmbH</Company>
+    <Street>Graf-Zeppelin-Straße 16</Street>
+    <CodeCity>51147 Köln-Porz</CodeCity>
+    <Phone>02203/92620</Phone>
+    <Fax>02203/9262260</Fax>
+    <Internet>www.jcb.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>John Deere</Producer>
+    <Company>John Deere Vertrieb</Company>
+    <Street>John-Deere-Straße 8</Street>
+    <CodeCity>76646 Bruchsal</CodeCity>
+    <Phone>07251/9248401</Phone>
+    <Fax>07251/9248409</Fax>
+    <Internet>www.deere.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Kawasaki</Producer>
+    <Company>Inzwischen nicht mehr auf dem landwirtschaftlichen Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Kioti</Producer>
+    <Company>Leeb Technik</Company>
+    <Street>St. Thomas 80</Street>
+    <CodeCity>A-9400 Wolfsberg</CodeCity>
+    <Phone>0043/4352/41940</Phone>
+    <Fax>0043/4352/419490</Fax>
+    <Internet>www.leeb-technik.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Kirovets</Producer>
+    <Company>Land- und Kfz-Technik GmbH</Company>
+    <Street>Arnstädter Straße</Street>
+    <CodeCity>99310 Marlishausen</CodeCity>
+    <Phone>03628/618224</Phone>
+    <Fax>03628/618211</Fax>
+    <Internet>www.kirovets.eu</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Krieger</Producer>
+    <Company>Krieger Fahrzeugbau GmbH</Company>
+    <Street>Mühlgasse 9</Street>
+    <CodeCity>76835 Rhodt</CodeCity>
+    <Phone>06323/3066</Phone>
+    <Fax>06323/5086</Fax>
+    <Internet>www.krieger-fahrzeugbau.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Kubota</Producer>
+    <Company>Kubota Deutschland GmbH</Company>
+    <Street>Senefelder Straße 3 - 5</Street>
+    <CodeCity>63110 Rodgau</CodeCity>
+    <Phone>06106/8730</Phone>
+    <Fax>06106/873199</Fax>
+    <Internet>www.kubota.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Lamborghini</Producer>
+    <Company>Same Deutz-Fahr Deutschland  GmbH</Company>
+    <Street>Deutz-Fahr-Straße 1</Street>
+    <CodeCity>89415 Lauingen</CodeCity>
+    <Phone>09072/9970</Phone>
+    <Fax>09072/997594</Fax>
+    <Internet>www.samedeutz-fahr.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Landini</Producer>
+    <Company>Argo GmbH</Company>
+    <Street>Oedenberger Straße 55 - 59</Street>
+    <CodeCity>90491 Nürnberg</CodeCity>
+    <Phone>0911/5406000</Phone>
+    <Fax>0911/54060043</Fax>
+    <Internet>www.landini-traktoren.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Lenar</Producer>
+    <Company>Lenar Deutschland GmbH</Company>
+    <Street>Am Bahndamm 4</Street>
+    <CodeCity>41334 Nettetal</CodeCity>
+    <Phone>02153/1218643</Phone>
+    <Fax>02153/1218672</Fax>
+    <Internet>www.lenartraktor.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Lindner</Producer>
+    <Company>Traktorenwerk Lindner</Company>
+    <Street></Street>
+    <CodeCity>A-6250 Kundl/Tirol</CodeCity>
+    <Phone>0043/5338/7420</Phone>
+    <Fax>0043/5338/742041</Fax>
+    <Internet>www.lindner-traktoren.at</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Lovol</Producer>
+    <Company>Leeb Technik</Company>
+    <Street>St. Thomas 80</Street>
+    <CodeCity>A-9400 Wolfsberg</CodeCity>
+    <Phone>0043/4352/41940</Phone>
+    <Fax>0043/4352/419490</Fax>
+    <Internet>www.leeb-technik.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>LS Tractor</Producer>
+    <Company>TTC GmbH &amp; Co KG</Company>
+    <Street>Am Galgenbuck 2</Street>
+    <CodeCity>90613 Großhabersdorf</CodeCity>
+    <Phone>09105/9989490</Phone>
+    <Fax>09105/99894918</Fax>
+    <Internet>www.ttc-tractor.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>LTS</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Mali</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Massey Ferguson</Producer>
+    <Company>Agco Vertriebs GmbH</Company>
+    <Street>Micheletalweg 4</Street>
+    <CodeCity>87616 Marktoberdorf</CodeCity>
+    <Phone>08342/778660</Phone>
+    <Fax>08342/778650</Fax>
+    <Internet>www.masseyferguson.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>McCormick</Producer>
+    <Company>Argo GmbH</Company>
+    <Street>Oedenberger Straße 55 - 59</Street>
+    <CodeCity>90491 Nürnberg</CodeCity>
+    <Phone>0911/5406000</Phone>
+    <Fax>0911/54060043</Fax>
+    <Internet>www.landini-traktoren.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Mercedes-Benz</Producer>
+    <Company>Daimler AG</Company>
+    <Street>Daimlerstraße 1</Street>
+    <CodeCity>76744 Wörth am Rhein</CodeCity>
+    <Phone>07271/710</Phone>
+    <Fax></Fax>
+    <Internet>www.mercedes-benz.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>MFT Eicher</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Morooka</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>New Holland</Producer>
+    <Company>CNH Deutschland GmbH</Company>
+    <Street>Benzstraße 1</Street>
+    <CodeCity>74076 Heilbronn</CodeCity>
+    <Phone>07131/1060</Phone>
+    <Fax>07131/106110</Fax>
+    <Internet>www.newholland.com/de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Rasant</Producer>
+    <Company>siehe Aebi</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Rasant Aebi</Producer>
+    <Company>Siehe Aebi</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Reform</Producer>
+    <Company>Reform-Werke Bauer &amp; Co. GmbH</Company>
+    <Street>Haidestraße 40</Street>
+    <CodeCity>A-4600 Wels</CodeCity>
+    <Phone>0043/7242/232-0</Phone>
+    <Fax>0043/7242/232-4</Fax>
+    <Internet>www.reform-werke.at</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Renault</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Rigitrac</Producer>
+    <Company>Rigitrac Traktorenbau AG</Company>
+    <Street>Bodenhof 2</Street>
+    <CodeCity>CH-6403 Küssnacht am Rigi</CodeCity>
+    <Phone>0041/41/8501533</Phone>
+    <Fax>0041/41/8504007</Fax>
+    <Internet>www.rigitrac.ch</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Ropa</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Same</Producer>
+    <Company>Same Deutz-Fahr Deutschland  GmbH</Company>
+    <Street>Deutz-Fahr-Straße 1</Street>
+    <CodeCity>89415 Lauingen</CodeCity>
+    <Phone>09072/9970</Phone>
+    <Fax>09072/997594</Fax>
+    <Internet>www.samedeutz-fahr.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Sauerburger</Producer>
+    <Company>F.X.S. Sauerburger </Company>
+    <Street>Im Bürgerstock 3</Street>
+    <CodeCity>79241 Wasenweiler</CodeCity>
+    <Phone>07668/90320</Phone>
+    <Fax>07668/7802</Fax>
+    <Internet>www.sauerburger.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Schanzlin</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Schlüter</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Shibaura</Producer>
+    <Company>Shibaura Deutschland GmbH</Company>
+    <Street>Carl-Hans-Straße 4</Street>
+    <CodeCity>51674 Wiehl</CodeCity>
+    <Phone>02296/999010</Phone>
+    <Fax>02296/9990111</Fax>
+    <Internet>www.shibaura.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Steyr</Producer>
+    <Company>CNH Deutschland GmbH</Company>
+    <Street>Benzstraße 1</Street>
+    <CodeCity>74076 Heilbronn</CodeCity>
+    <Phone>07131/64490</Phone>
+    <Fax>07131/6449409</Fax>
+    <Internet>www.steyr-traktoren.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Systrac</Producer>
+    <Company>SysTrac GmbH</Company>
+    <Street>Glinder Straße 6</Street>
+    <CodeCity>39218 Schönebeck/Elbe</CodeCity>
+    <Phone>03928/727730</Phone>
+    <Fax>03928/727739</Fax>
+    <Internet>www.systrac-sbk.com</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Torpedo</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Trac-Technik</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Tünnissen</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>TYM</Producer>
+    <Company>TYM Traktoren-Vertrieb GmbH</Company>
+    <Street>Münsterstraße 137</Street>
+    <CodeCity>45721 Haltern am See</CodeCity>
+    <Phone>02364/508627</Phone>
+    <Fax>02364/168425</Fax>
+    <Internet>www.tym-traktoren.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Ursus</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>UTB</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Valmet</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt, siehe Valtra</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Valpadana</Producer>
+    <Company>Gebr. Schmidt Landtechnik</Company>
+    <Street>Gamstädter Landstraße 31</Street>
+    <CodeCity>99192 Erfurt-Ermstedt</CodeCity>
+    <Phone>036208/77560</Phone>
+    <Fax>036208/77562</Fax>
+    <Internet>www.valpadana-traktoren.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Valtra</Producer>
+    <Company>Valtra Vertriebs GmbH</Company>
+    <Street>Micheletalweg 4</Street>
+    <CodeCity>87616 Marktoberdorf</CodeCity>
+    <Phone>08342/778100</Phone>
+    <Fax>08342/778128</Fax>
+    <Internet>www.valtra.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Valtra-Valmet</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt, siehe Valtra</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Vredo</Producer>
+    <Company>Vredo Dodewaard</Company>
+    <Street>Welysestraat 25a</Street>
+    <CodeCity>NL-6669 Dodewaard</CodeCity>
+    <Phone>0031/488/411254</Phone>
+    <Fax>0031/488/412471</Fax>
+    <Internet>www.vredo.nl</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Yagmur</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Yamaha</Producer>
+    <Company>Inzwischen nicht mehr auf dem Markt</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Zetor</Producer>
+    <Company>Zetor Deutschland GmbH</Company>
+    <Street>Dr.-Georg-Schäfer-Straße 17</Street>
+    <CodeCity>93437 Furth im Wald</CodeCity>
+    <Phone>09973/80460</Phone>
+    <Fax>09973/8046128</Fax>
+    <Internet>www.zetor.de</Internet>
+    <Internet2 />
+  </Brand>
+  <Brand>
+    <Producer>Zetor/ZTS</Producer>
+    <Company>siehe Zetor Deutschland GmbH</Company>
+    <Street></Street>
+    <CodeCity></CodeCity>
+    <Phone></Phone>
+    <Fax></Fax>
+    <Internet></Internet>
+    <Internet2 />
+  </Brand>
+</Brands>

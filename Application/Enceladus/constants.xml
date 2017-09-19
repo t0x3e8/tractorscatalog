@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SearchCriteria>
+  <Brands>
+    <Brand>Aebi</Brand>
+    <Brand>Aebi Rasant</Brand>
+    <Brand>Ag-Chem</Brand>
+    <Brand>Agco Challenger</Brand>
+    <Brand>Agromehanika</Brand>
+    <Brand>Ahwi</Brand>
+    <Brand>Antonio Carraro</Brand>
+    <Brand>ATM</Brand>
+    <Brand>BCS</Brand>
+    <Brand>Belarus</Brand>
+    <Brand>Bombardier</Brand>
+    <Brand>BRP</Brand>
+    <Brand>Bucher</Brand>
+    <Brand>Carraro</Brand>
+    <Brand>Case IH</Brand>
+    <Brand>Case Steyr</Brand>
+    <Brand>Caterpillar</Brand>
+    <Brand>Challenger</Brand>
+    <Brand>Claas</Brand>
+    <Brand>DaimlerChrysler</Brand>
+    <Brand>De Pietri</Brand>
+    <Brand>Deutz-Fahr</Brand>
+    <Brand>Dexheimer</Brand>
+    <Brand>Doppstadt</Brand>
+    <Brand>DTU</Brand>
+    <Brand>Ebro</Brand>
+    <Brand>Eicher</Brand>
+    <Brand>Fendt</Brand>
+    <Brand>Ferrari</Brand>
+    <Brand>Fiatagri</Brand>
+    <Brand>Ford</Brand>
+    <Brand>Fortschritt</Brand>
+    <Brand>Fuß</Brand>
+    <Brand>Goldoni</Brand>
+    <Brand>Hako</Brand>
+    <Brand>Hieble-Bergmeister</Brand>
+    <Brand>Holder</Brand>
+    <Brand>Holmer</Brand>
+    <Brand>Honda</Brand>
+    <Brand>Horsch</Brand>
+    <Brand>Hürlimann</Brand>
+    <Brand>Iseki</Brand>
+    <Brand>JCB</Brand>
+    <Brand>John Deere</Brand>
+    <Brand>Kawasaki</Brand>
+    <Brand>Kioti</Brand>
+    <Brand>Kirovets</Brand>
+    <Brand>Kirovets ATM</Brand>
+    <Brand>Krieger</Brand>
+    <Brand>Kubota</Brand>
+    <Brand>Lamborghini</Brand>
+    <Brand>Landini</Brand>
+    <Brand>Lenar</Brand>
+    <Brand>Limb</Brand>
+    <Brand>Lindner</Brand>
+    <Brand>Lovol</Brand>
+    <Brand>LS Tractor</Brand>
+    <Brand>LTS</Brand>
+    <Brand>Mali</Brand>
+    <Brand>Massey Ferguson</Brand>
+    <Brand>McCormick</Brand>
+    <Brand>Mercedes-Benz</Brand>
+    <Brand>MFT Eicher</Brand>
+    <Brand>Morooka</Brand>
+    <Brand>New Holland</Brand>
+    <Brand>Rasant</Brand>
+    <Brand>Rasant Aebi</Brand>
+    <Brand>Reform</Brand>
+    <Brand>Renault</Brand>
+    <Brand>Rigitrac</Brand>
+    <Brand>Ropa</Brand>
+    <Brand>Same</Brand>
+    <Brand>Sauerburger</Brand>
+    <Brand>Schanzlin</Brand>
+    <Brand>Schlüter</Brand>
+    <Brand>Shibaura</Brand>
+    <Brand>Steyr</Brand>
+    <Brand>SysTrac</Brand>
+    <Brand>Torpedo</Brand>
+    <Brand>trac-technik</Brand>
+    <Brand>Tünnissen</Brand>
+    <Brand>TYM</Brand>
+    <Brand>Ursus</Brand>
+    <Brand>UTB</Brand>
+    <Brand>Valmet</Brand>
+    <Brand>Valpadana</Brand>
+    <Brand>Valtra</Brand>
+    <Brand>Valtra-Valmet</Brand>
+    <Brand>Vredo</Brand>
+    <Brand>Yagmur</Brand>
+    <Brand>Yamaha</Brand>
+    <Brand>Zetor</Brand>
+    <Brand>Zetor/ZTS</Brand>
+  </Brands>
+  <Years>
+    <Year>1988</Year>
+    <Year>1990</Year>
+    <Year>1992</Year>
+    <Year>1994</Year>
+    <Year>1996</Year>
+    <Year>1997</Year>
+    <Year>1998</Year>
+    <Year>1999</Year>
+    <Year>2000</Year>
+    <Year>2001</Year>
+    <Year>2002</Year>
+    <Year>2003</Year>
+    <Year>2004</Year>
+    <Year>2005</Year>
+    <Year>2006</Year>
+    <Year>2007</Year>
+    <Year>2008</Year>
+    <Year>2009</Year>
+    <Year>2010</Year>
+    <Year>2011</Year>
+    <Year>2012</Year>
+    <Year>2013</Year>
+    <Year>2014</Year>
+    <Year>2015</Year>
+    <Year>2016</Year>
+    <Year>2017</Year>
+  </Years>
+  <KW_PS Min_KW="6" Max_KW="520" Min_PS="0" Max_PS="707" />
+  <Hoist Min="250" Max="37020" />
+  <Weight Min="0" Max="64000" />
+  <Capacity Min="0" Max="68500" />
+  <Tropic Min="1" Max="20" />
+  <Height Min="98" Max="310312" />
+  <Price Min="0" Max="536900" />
+  <RecordNumber Max="22670" />
+</SearchCriteria>

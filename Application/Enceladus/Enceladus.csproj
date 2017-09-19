@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27E7C675-3C61-4600-9182-E0A71C3AF353}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enceladus</RootNamespace>
+    <AssemblyName>Schleppermarkt 2017</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tractor_green.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\AboutCommand.cs" />
+    <Compile Include="Commands\BookmarkCommand.cs" />
+    <Compile Include="Commands\BrandsCommand.cs" />
+    <Compile Include="Commands\CleanBookmarkListCommand.cs" />
+    <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Commands\FreezeWindowCommand.cs" />
+    <Compile Include="Commands\GenerateComparisonSheetCommand.cs" />
+    <Compile Include="Commands\AsyncCommandBase.cs" />
+    <Compile Include="Commands\LayoutCommandBase.cs" />
+    <Compile Include="Commands\GeneralCommand.cs" />
+    <Compile Include="Commands\MainCommand.cs" />
+    <Compile Include="Commands\OpenPdfDocumentCommand.cs" />
+    <Compile Include="Commands\PrintSearchResultCommand.cs" />
+    <Compile Include="Commands\PrintTractorCommand.cs" />
+    <Compile Include="Commands\ProductInformationCommand.cs" />
+    <Compile Include="Commands\SearchCommand.cs" />
+    <Compile Include="Commands\SearchResultCommand.cs" />
+    <Compile Include="Commands\SingleTractorCommand.cs" />
+    <Compile Include="Controls\AboutLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AboutLayout.Designer.cs">
+      <DependentUpon>AboutLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Brands Page\BrandsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Brands Page\BrandsPage.Designer.cs">
+      <DependentUpon>BrandsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BrandsLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BrandsLayout.Designer.cs">
+      <DependentUpon>BrandsLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IAboutView.cs" />
+    <Compile Include="Controls\IBrandsView.cs" />
+    <Compile Include="Controls\Printing\PrintingHelper.cs" />
+    <Compile Include="Controls\Printing\SingleTractorPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Search Pages\AdvanceSearchPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Search Pages\AdvanceSearchPage.Designer.cs">
+      <DependentUpon>AdvanceSearchPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseLayout.Designer.cs">
+      <DependentUpon>BaseLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Search Pages\GeneralSearchPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Search Pages\GeneralSearchPage.Designer.cs">
+      <DependentUpon>GeneralSearchPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IChangeLanguage.cs" />
+    <Compile Include="Controls\IMainView.cs" />
+    <Compile Include="Controls\ISearchView.cs" />
+    <Compile Include="Controls\ITractorView.cs" />
+    <Compile Include="Controls\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MainLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MainLayout.Designer.cs">
+      <DependentUpon>MainLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PageBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PageBase.Designer.cs">
+      <DependentUpon>PageBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Search Pages\SearchResultPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Search Pages\SearchResultPage.Designer.cs">
+      <DependentUpon>SearchResultPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchLayout.Designer.cs">
+      <DependentUpon>SearchLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchResultLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchResultLayout.Designer.cs">
+      <DependentUpon>SearchResultLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\ComparisonTractorPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\ComparisonTractorPage.Designer.cs">
+      <DependentUpon>ComparisonTractorPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\DetailsIIITractorPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\DetailsIIITractorPage.Designer.cs">
+      <DependentUpon>DetailsIIITractorPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\DetailsIITractorPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\DetailsIITractorPage.Designer.cs">
+      <DependentUpon>DetailsIITractorPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\DetailsITractorPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\DetailsITractorPage.Designer.cs">
+      <DependentUpon>DetailsITractorPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\OverviewTractorPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\OverviewTractorPage.Designer.cs">
+      <DependentUpon>OverviewTractorPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\TractorBasePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\TractorBasePage.Designer.cs">
+      <DependentUpon>TractorBasePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\ViewTractorPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tractor Pages\ViewTractorPage.Designer.cs">
+      <DependentUpon>ViewTractorPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TractorLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TractorLayout.Designer.cs">
+      <DependentUpon>TractorLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WaitingWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\WaitingWindow.Designer.cs">
+      <DependentUpon>WaitingWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\AboutPresenter.cs" />
+    <Compile Include="Logic\BrandsGroup.cs" />
+    <Compile Include="Logic\BrandsPresenter.cs" />
+    <Compile Include="Logic\BrandsReader.cs" />
+    <Compile Include="Logic\CollectionHelper.cs" />
+    <Compile Include="Logic\IObserver.cs" />
+    <Compile Include="Logic\StateObserver.cs" />
+    <Compile Include="Logic\SearchObserver.cs" />
+    <Compile Include="Logic\SortableList.cs" />
+    <Compile Include="Logic\WaitingWindowDispatcher.cs" />
+    <Compile Include="Logic\ApplicationState.cs" />
+    <Compile Include="Logic\ConstantsReader.cs" />
+    <Compile Include="Logic\Dictionary.cs" />
+    <Compile Include="Logic\Enums.cs" />
+    <Compile Include="Controls\ISearchResultView.cs" />
+    <Compile Include="Logic\MainPresenter.cs" />
+    <Compile Include="Logic\ResourceFinder.cs" />
+    <Compile Include="Logic\SearchCriteria.cs" />
+    <Compile Include="Logic\SearchPresenter.cs" />
+    <Compile Include="Logic\SearchResultPresenter.cs" />
+    <Compile Include="Logic\TractorPresenter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\AboutLayout.resx">
+      <DependentUpon>AboutLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Brands Page\BrandsPage.resx">
+      <DependentUpon>BrandsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BrandsLayout.resx">
+      <DependentUpon>BrandsLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Search Pages\AdvanceSearchPage.resx">
+      <DependentUpon>AdvanceSearchPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseLayout.resx">
+      <DependentUpon>BaseLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Search Pages\GeneralSearchPage.resx">
+      <DependentUpon>GeneralSearchPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MainLayout.resx">
+      <DependentUpon>MainLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PageBase.resx">
+      <DependentUpon>PageBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Search Pages\SearchResultPage.resx">
+      <DependentUpon>SearchResultPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SearchLayout.resx">
+      <DependentUpon>SearchLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SearchResultLayout.resx">
+      <DependentUpon>SearchResultLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tractor Pages\ComparisonTractorPage.resx">
+      <DependentUpon>ComparisonTractorPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tractor Pages\DetailsIIITractorPage.resx">
+      <DependentUpon>DetailsIIITractorPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tractor Pages\DetailsIITractorPage.resx">
+      <DependentUpon>DetailsIITractorPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tractor Pages\DetailsITractorPage.resx">
+      <DependentUpon>DetailsITractorPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tractor Pages\OverviewTractorPage.resx">
+      <DependentUpon>OverviewTractorPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tractor Pages\TractorBasePage.resx">
+      <DependentUpon>TractorBasePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tractor Pages\ViewTractorPage.resx">
+      <DependentUpon>ViewTractorPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TractorLayout.resx">
+      <DependentUpon>TractorLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WaitingWindow.resx">
+      <DependentUpon>WaitingWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Printing\SearchResultPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\API\API.csproj">
+      <Project>{09EE91B1-8360-4D6B-9064-4DB168D60EF3}</Project>
+      <Name>API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StringLibrary\StringLibrary.csproj">
+      <Project>{42FE757C-6F2D-44C2-8247-3A4F89E71B01}</Project>
+      <Name>StringLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UIToolbox\UIToolbox.csproj">
+      <Project>{9502C151-8113-4A4B-AA19-263673C026C4}</Project>
+      <Name>UIToolbox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApplicationLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profi_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topAgrar_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PageBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topAgrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrandsPageLayout.png" />
+    <None Include="Resources\Superkatalog_Header.png" />
+    <None Include="Resources\collapse.png" />
+    <None Include="Resources\expand.png" />
+    <None Include="Resources\jquery-1.6.4.min.js" />
+    <EmbeddedResource Include="constants.xml" />
+    <EmbeddedResource Include="brands.xml" />
+    <None Include="Resources\BigLogo.jpg" />
+    <Content Include="tractor_green.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="ComparisonTransformationSource.xslt">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Resources\agrar_transparent.png" />
+    <None Include="Resources\Profi_transparent.png" />
+    <None Include="Resources\trebuc.ttf" />
+    <None Include="Resources\trebucbd.ttf" />
+    <None Include="Resources\trebucbi.ttf" />
+    <None Include="Resources\trebucit.ttf" />
+    <None Include="Resources\WaitingWindowBackground.png" />
+    <None Include="Resources\PrintList.png" />
+    <None Include="Resources\tables_delete.png" />
+    <None Include="Resources\tables.png" />
+    <None Include="Resources\table_view.png" />
+    <None Include="Resources\Bookmark_Remove.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmLabel" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="daNLabel" xml:space="preserve">
+    <value>daN</value>
+  </data>
+  <data name="kgLabel" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="Main_AboutButtonText" xml:space="preserve">
+    <value>Impressum</value>
+  </data>
+  <data name="Main_ProductInfoButtonText" xml:space="preserve">
+    <value>Produktinformationen</value>
+  </data>
+  <data name="Main_SearchButtonText" xml:space="preserve">
+    <value>Schlepper suchen</value>
+  </data>
+  <data name="Main_ShowOneButtonText" xml:space="preserve">
+    <value>Schlepper anzeigen</value>
+  </data>
+  <data name="Main_VendorButtonText" xml:space="preserve">
+    <value>Herstellerverzeichnis</value>
+  </data>
+  <data name="mLabel" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="moneyLabel" xml:space="preserve">
+    <value>Euro</value>
+  </data>
+  <data name="SearchAdv_EnginePowerPanelCaption" xml:space="preserve">
+    <value>Motorleistung</value>
+  </data>
+  <data name="SearchAdv_Gears1OptionText" xml:space="preserve">
+    <value>mit Lastschaltung</value>
+  </data>
+  <data name="SearchAdv_Gears2OptionText" xml:space="preserve">
+    <value>mit Kriechgetriebe</value>
+  </data>
+  <data name="SearchAdv_GearsPanelCaption" xml:space="preserve">
+    <value>Getriebe</value>
+  </data>
+  <data name="SearchAdv_Hoist1OptionText" xml:space="preserve">
+    <value>Ausstattung mit Fronthubwerk/Frontzapfwelle</value>
+  </data>
+  <data name="SearchAdv_HoistPanelCaption" xml:space="preserve">
+    <value>Hubwerk</value>
+  </data>
+  <data name="SearchAdv_HoistScrollerLabel" xml:space="preserve">
+    <value>Heck-Hubkraft mindestens</value>
+  </data>
+  <data name="SearchAdv_PreisScrollerLabel" xml:space="preserve">
+    <value>Nicht mehr als</value>
+  </data>
+  <data name="SearchAdv_PricePanelCaption" xml:space="preserve">
+    <value>Preis</value>
+  </data>
+  <data name="SearchAdv_WeightPanelCaption" xml:space="preserve">
+    <value>Maße und Gewichte</value>
+  </data>
+  <data name="SearchAdv_WeightScroller1Label" xml:space="preserve">
+    <value>Zulässiges Gesamtgewicht maximal</value>
+  </data>
+  <data name="SearchAdv_WeightScroller2Label" xml:space="preserve">
+    <value>Nutzlast mindestens</value>
+  </data>
+  <data name="SearchAdv_WeightScroller3Label" xml:space="preserve">
+    <value>Wendekreis höchstens</value>
+  </data>
+  <data name="SearchAdv_WeightScroller4Label" xml:space="preserve">
+    <value>Schlepperhöhe maximal</value>
+  </data>
+  <data name="SearchGen_BrandsPanelCaption" xml:space="preserve">
+    <value>Hersteller</value>
+  </data>
+  <data name="SearchGen_SmallTractorsOption" xml:space="preserve">
+    <value>nur Schmalspurschlepper</value>
+  </data>
+  <data name="SearchGen_StandTractorsOption" xml:space="preserve">
+    <value>nur Standardschlepper</value>
+  </data>
+  <data name="SearchGen_YearPanelCaption" xml:space="preserve">
+    <value>Kalenderjahr</value>
+  </data>
+  <data name="Search_AdvanceTabName" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="Search_GeneralTabName" xml:space="preserve">
+    <value>Jahrgang/Marke</value>
+  </data>
+  <data name="Search_MainWindowButtonText" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="Search_StartSerchButtonText" xml:space="preserve">
+    <value>Suche starten</value>
+  </data>
+  <data name="SearchResult_MainWindowButtonText" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="SearchResult_NewSearchButtonText" xml:space="preserve">
+    <value>Neue Suche</value>
+  </data>
+  <data name="SearchResult_ShowTractorButtonText" xml:space="preserve">
+    <value>Detailansicht</value>
+  </data>
+  <data name="Tractor_MainWindowButtonText" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="Tractor_NewSearchButtonText" xml:space="preserve">
+    <value>Neue Suche</value>
+  </data>
+  <data name="Tractor_ComparisonTabName" xml:space="preserve">
+    <value>Vergleich</value>
+  </data>
+  <data name="Tractor_DetailsIIITabName" xml:space="preserve">
+    <value>Details III</value>
+  </data>
+  <data name="Tractor_DetailsIITabName" xml:space="preserve">
+    <value>Details II</value>
+  </data>
+  <data name="Tractor_DetailsITabName" xml:space="preserve">
+    <value>Details I</value>
+  </data>
+  <data name="Tractor_OverviewTabName" xml:space="preserve">
+    <value>Übersicht</value>
+  </data>
+  <data name="Tractor_ViewTabName" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="TractorOverview_DetailsPanelCaption" xml:space="preserve">
+    <value>Besonderheiten</value>
+  </data>
+  <data name="TractorOverview_EquipmentPanelCaption" xml:space="preserve">
+    <value>Ausstattung</value>
+  </data>
+  <data name="TractorOverview_GearsPanelCaption" xml:space="preserve">
+    <value>Getriebe</value>
+  </data>
+  <data name="TractorOverview_HydraulicPanelCaption" xml:space="preserve">
+    <value>Hydraulik</value>
+  </data>
+  <data name="TractorOverview_MotorPanelCaption" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="TractorOverview_PowerTakeOffPanelCaption" xml:space="preserve">
+    <value>Zapfwelle</value>
+  </data>
+  <data name="TractorOverview_PricePanelCaption" xml:space="preserve">
+    <value>Preis</value>
+  </data>
+  <data name="TractorOverview_TestReportPanelCaption" xml:space="preserve">
+    <value>Prüfberichte</value>
+  </data>
+  <data name="TractorOverview_WeightPanelCaption" xml:space="preserve">
+    <value>Gewichte und Maße</value>
+  </data>
+  <data name="TractorDetailsI_AutomatikfunktionenGetriebeText" xml:space="preserve">
+    <value>Automatikfunktionen</value>
+  </data>
+  <data name="TractorDetailsI_C30kmhText" xml:space="preserve">
+    <value>30 km/h</value>
+  </data>
+  <data name="TractorDetailsI_C40kmhText" xml:space="preserve">
+    <value>40 km/h</value>
+  </data>
+  <data name="TractorDetailsI_C50kmhText" xml:space="preserve">
+    <value>50 km/h</value>
+  </data>
+  <data name="TractorDetailsI_C60kmhundmehrText" xml:space="preserve">
+    <value>&gt;60 km/h</value>
+  </data>
+  <data name="TractorDetailsI_DrehzahlreduzierteMaxgeschwindText" xml:space="preserve">
+    <value>Transport mit reduzierter Drehzahl</value>
+  </data>
+  <data name="TractorDetailsI_EndgeschwindigkeitKmhText" xml:space="preserve">
+    <value>Höchstgeschwindigkeit</value>
+  </data>
+  <data name="TractorDetailsI_Gaenge4Bis12KmhText" xml:space="preserve">
+    <value>Gänge 4 bis 12 km/h</value>
+  </data>
+  <data name="TractorDetailsI_GaengeRueckwaertsText" xml:space="preserve">
+    <value>rückwärts</value>
+  </data>
+  <data name="TractorDetailsI_GaengeUeber15KmhText" xml:space="preserve">
+    <value>über 15 km/h</value>
+  </data>
+  <data name="TractorDetailsI_GaengeVorwaertsText" xml:space="preserve">
+    <value>Gänge vorwärts</value>
+  </data>
+  <data name="TractorDetailsI_GearsPanelCaption" xml:space="preserve">
+    <value>Getriebe</value>
+  </data>
+  <data name="TractorDetailsI_GetriebeherstellerText" xml:space="preserve">
+    <value>Hersteller</value>
+  </data>
+  <data name="TractorDetailsI_GetriebetypText" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="TractorDetailsI_GetriebeWunschText" xml:space="preserve">
+    <value>auf Wunsch</value>
+  </data>
+  <data name="TractorDetailsI_KriechgetriebeabText" xml:space="preserve">
+    <value>Geschwindigkeit ab</value>
+  </data>
+  <data name="TractorDetailsI_KriechgetriebeText" xml:space="preserve">
+    <value>Kriechgetriebe</value>
+  </data>
+  <data name="TractorDetailsI_LSAnzahlStufenText" xml:space="preserve">
+    <value>Anzahl Stufen</value>
+  </data>
+  <data name="TractorDetailsI_LS_GetriebeText" xml:space="preserve">
+    <value>Lastschaltung</value>
+  </data>
+  <data name="TractorDetailsI_StufenlosesCvtText" xml:space="preserve">
+    <value>Stufenlos</value>
+  </data>
+  <data name="TractorDetailsI_SynchronisationText" xml:space="preserve">
+    <value>Synchronisation</value>
+  </data>
+  <data name="TractorDetailsI_WendegetriebeText" xml:space="preserve">
+    <value>Wendegetriebe</value>
+  </data>
+  <data name="TractorDetailsI_WendeschaltungText" xml:space="preserve">
+    <value>Wendeschaltung</value>
+  </data>
+  <data name="TractorDetailsI_WgLastschaltbarText" xml:space="preserve">
+    <value>lastschaltbar</value>
+  </data>
+  <data name="TractorDetailsI_WgVorwahlbarText" xml:space="preserve">
+    <value>vorwählbar</value>
+  </data>
+  <data name="TractorDetailsI_ZahlDerSchalthebelText" xml:space="preserve">
+    <value>Zahl Schalthebel</value>
+  </data>
+  <data name="TractorDetailsI_AnzahlTanksText" xml:space="preserve">
+    <value>Anzahl Tanks</value>
+  </data>
+  <data name="TractorDetailsI_BestverbrauchBeiDrehzahlText" xml:space="preserve">
+    <value>bei</value>
+  </data>
+  <data name="TractorDetailsI_BestverbrauchGkwhText" xml:space="preserve">
+    <value>Bestverbrauch</value>
+  </data>
+  <data name="TractorDetailsI_FuelConsumptionPanelCaption" xml:space="preserve">
+    <value>Kraftstoffverbrauch</value>
+  </data>
+  <data name="TractorDetailsI_MittlererOECD_VerbrauchgkWhText" xml:space="preserve">
+    <value>Mittlerer OECD-Verbrauch</value>
+  </data>
+  <data name="TractorDetailsI_MotorPanelCaption" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="TractorDetailsI_rPowermixmittelText" xml:space="preserve">
+    <value>Powermix-Mittelwert</value>
+  </data>
+  <data name="TractorDetailsI_TankinhaltLText" xml:space="preserve">
+    <value>Tankinhalt</value>
+  </data>
+  <data name="TractorDetailsI_VerbrauchMaximalGkwhText" xml:space="preserve">
+    <value>maximal</value>
+  </data>
+  <data name="TractorDetailsI_BauartMotorText" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="TractorDetailsI_AbgasnormText" xml:space="preserve">
+    <value>Abgasnorm</value>
+  </data>
+  <data name="TractorDetailsI_BohrungXHubText" xml:space="preserve">
+    <value>Bohrung x Hub</value>
+  </data>
+  <data name="TractorDetailsI_BoostleistungBeiUminText" xml:space="preserve">
+    <value>bei Motordrehzahl</value>
+  </data>
+  <data name="TractorDetailsI_BoostleistungKWText" xml:space="preserve">
+    <value>Powerboost</value>
+  </data>
+  <data name="TractorDetailsI_DrehmomentanstiegProzentText" xml:space="preserve">
+    <value>Drehmomentanstieg</value>
+  </data>
+  <data name="TractorDetailsI_DrehzahlabfallProzentText" xml:space="preserve">
+    <value>Drehzahlabfall</value>
+  </data>
+  <data name="TractorDetailsI_EceoderisoText" xml:space="preserve">
+    <value>nach</value>
+  </data>
+  <data name="TractorDetailsI_HerstellerMotorText" xml:space="preserve">
+    <value>Hersteller</value>
+  </data>
+  <data name="TractorDetailsI_HubraumCcmText" xml:space="preserve">
+    <value>Hubraum</value>
+  </data>
+  <data name="TractorDetailsI_KonstantleistungProzentText" xml:space="preserve">
+    <value>Konstantleistungsbereich</value>
+  </data>
+  <data name="TractorDetailsI_KuehlungText" xml:space="preserve">
+    <value>Kühlung</value>
+  </data>
+  <data name="TractorDetailsI_MaximalleistungKWText" xml:space="preserve">
+    <value>Höchstleistung</value>
+  </data>
+  <data name="TractorDetailsI_MaxleistungBeiUminText" xml:space="preserve">
+    <value>bei Motordrehzahl</value>
+  </data>
+  <data name="TractorDetailsI_MdmaxBeiDrehzahlText" xml:space="preserve">
+    <value>bei Motordrehzahl</value>
+  </data>
+  <data name="TractorDetailsI_MdmaxNMText" xml:space="preserve">
+    <value>Drehmoment max</value>
+  </data>
+  <data name="TractorDetailsI_MotortypText" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="TractorDetailsI_NenndrehzahlUminText" xml:space="preserve">
+    <value>Nenndrehzahl</value>
+  </data>
+  <data name="TractorDetailsI_NennleistungKWText" xml:space="preserve">
+    <value>Nennleistung</value>
+  </data>
+  <data name="TractorDetailsI_PmaxAbUminUntenText" xml:space="preserve">
+    <value>bis Motordrehzahl</value>
+  </data>
+  <data name="TractorDetailsI_UberleistungKWText" xml:space="preserve">
+    <value>Überleistung</value>
+  </data>
+  <data name="TractorDetailsI_ZylinderzahlText" xml:space="preserve">
+    <value>Zylinder</value>
+  </data>
+  <data name="TractorDetailsII_AbreisskupplungenText" xml:space="preserve">
+    <value>Abreißkupplungen</value>
+  </data>
+  <data name="TractorDetailsII_AnzahlSteuerventileText" xml:space="preserve">
+    <value>Anzahl Steuergeräte</value>
+  </data>
+  <data name="TractorDetailsII_ArtHydrauliksystemText" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="TractorDetailsII_EhrText" xml:space="preserve">
+    <value>EHR</value>
+  </data>
+  <data name="TractorDetailsII_FernbedienungimHeckText" xml:space="preserve">
+    <value>Fernbedienung Heck</value>
+  </data>
+  <data name="TractorDetailsII_FronthubwerkHubkraftdaNText" xml:space="preserve">
+    <value>Fronthubkraft</value>
+  </data>
+  <data name="TractorDetailsII_FronthubwerkUndZWText" xml:space="preserve">
+    <value>Fronthubwerk / Frontzapfwelle</value>
+  </data>
+  <data name="TractorDetailsII_HoistPanelCaption" xml:space="preserve">
+    <value>Hubwerk</value>
+  </data>
+  <data name="TractorDetailsII_HubkraftDurchgehendDanText" xml:space="preserve">
+    <value>durchgehend</value>
+  </data>
+  <data name="TractorDetailsII_HubkraftMaximalDanText" xml:space="preserve">
+    <value>Hubkraft maximal</value>
+  </data>
+  <data name="TractorDetailsII_HubwerkKategorieText" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="TractorDetailsII_HydraulikNenndruckBarText" xml:space="preserve">
+    <value>Nenndruck</value>
+  </data>
+  <data name="TractorDetailsII_HydraulikPumpenleistungLProText" xml:space="preserve">
+    <value>Pumpenleistung</value>
+  </data>
+  <data name="TractorDetailsII_HyndraulicPanelCaption" xml:space="preserve">
+    <value>Hydraulik</value>
+  </data>
+  <data name="TractorDetailsII_LageregelungText" xml:space="preserve">
+    <value>Lage</value>
+  </data>
+  <data name="TractorDetailsII_MischregelungText" xml:space="preserve">
+    <value>Misch</value>
+  </data>
+  <data name="TractorDetailsII_Oberlenker_RegelungText" xml:space="preserve">
+    <value>Oberlenker</value>
+  </data>
+  <data name="TractorDetailsII_RegulungText" xml:space="preserve">
+    <value>Regelung</value>
+  </data>
+  <data name="TractorDetailsII_SchlupfregelungText" xml:space="preserve">
+    <value>Schlupf</value>
+  </data>
+  <data name="TractorDetailsII_SchnellkupplerText" xml:space="preserve">
+    <value>Schnellkuppler</value>
+  </data>
+  <data name="TractorDetailsII_SchwimmregelungText" xml:space="preserve">
+    <value>Schwimm</value>
+  </data>
+  <data name="TractorDetailsII_Unterlenker_RegelungText" xml:space="preserve">
+    <value>Unterlenker</value>
+  </data>
+  <data name="TractorDetailsII_ZugwiderstandsregelungText" xml:space="preserve">
+    <value>Zugkraft</value>
+  </data>
+  <data name="TractorDetailsII_Zusatz_HubzylinderText" xml:space="preserve">
+    <value>Zusatzzylinder</value>
+  </data>
+  <data name="TractorDetailsII_Front_ZWUminText" xml:space="preserve">
+    <value>Normdrehzahl der Frontzapfwelle</value>
+  </data>
+  <data name="TractorDetailsII_PowerTakeOffPanelCaption" xml:space="preserve">
+    <value>Zapfwelle</value>
+  </data>
+  <data name="TractorDetailsII_Spar_ZWText" xml:space="preserve">
+    <value>Sparzapfwelle</value>
+  </data>
+  <data name="TractorDetailsII_Weg_ZWText" xml:space="preserve">
+    <value>Wegzapfwelle</value>
+  </data>
+  <data name="TractorDetailsII_ZWFernbedienungText" xml:space="preserve">
+    <value>Fernbedienung Heck</value>
+  </data>
+  <data name="TractorDetailsII_ZWlastschaltbarText" xml:space="preserve">
+    <value>lastschaltbar</value>
+  </data>
+  <data name="TractorDetailsII_ZW_BauartText" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="TractorDetailsII_ZW_DrehzahlenText" xml:space="preserve">
+    <value>Drehzahlen</value>
+  </data>
+  <data name="TractorDetailsII_ZW_kWText" xml:space="preserve">
+    <value>Max. Zapfwellenleistung</value>
+  </data>
+  <data name="TractorDetailsII_ZW_ProfilText" xml:space="preserve">
+    <value>Zapfwellenprofil</value>
+  </data>
+  <data name="TractorDetailsII_ZW_StummelzahlText" xml:space="preserve">
+    <value>Stummelzahl</value>
+  </data>
+  <data name="TractorDetailsII_ZW_UminmaximalText" xml:space="preserve">
+    <value>Maximale Drehzahl</value>
+  </data>
+  <data name="TractorOverview_BauartText" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="TractorOverview_BereifungHintenText" xml:space="preserve">
+    <value>hinten</value>
+  </data>
+  <data name="TractorOverview_BereifungVorneText" xml:space="preserve">
+    <value>Bereifung vorne</value>
+  </data>
+  <data name="TractorOverview_BestverbrauchgkWhText" xml:space="preserve">
+    <value>Bestverbrauch</value>
+  </data>
+  <data name="TractorOverview_ECEOderISOText" xml:space="preserve">
+    <value>PS nach</value>
+  </data>
+  <data name="TractorOverview_EndgeschwindigkeitkmhText" xml:space="preserve">
+    <value>Höchstgeschwindigkeit</value>
+  </data>
+  <data name="TractorOverview_GaengeVorwaertsText" xml:space="preserve">
+    <value>Gangzahl v/r</value>
+  </data>
+  <data name="TractorOverview_GesamtgewichtText" xml:space="preserve">
+    <value>Zul. Gesamtgewicht</value>
+  </data>
+  <data name="TractorOverview_GetriebetypText" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="TractorOverview_GetriebeWunschText" xml:space="preserve">
+    <value>Wunsch</value>
+  </data>
+  <data name="TractorOverview_HubkraftMaximalDanText" xml:space="preserve">
+    <value>Hubkraft</value>
+  </data>
+  <data name="TractorOverview_HubraumccmText" xml:space="preserve">
+    <value>Hubraum</value>
+  </data>
+  <data name="TractorOverview_HubwerkKategorieText" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="TractorOverview_HydraulikNenndruckBarText" xml:space="preserve">
+    <value>Nenndruck</value>
+  </data>
+  <data name="TractorOverview_HydraulikPumpenleistunglproMinText" xml:space="preserve">
+    <value>Pumpenleistung</value>
+  </data>
+  <data name="TractorOverview_KonstantleistungProzentText" xml:space="preserve">
+    <value>Konstantleistung</value>
+  </data>
+  <data name="TractorOverview_KuehlungText" xml:space="preserve">
+    <value>Kühlung</value>
+  </data>
+  <data name="TractorOverview_NenndrehzahlText" xml:space="preserve">
+    <value>Nenndrehzahl</value>
+  </data>
+  <data name="TractorOverview_NennleistungPSText" xml:space="preserve">
+    <value>Nennleistung PS</value>
+  </data>
+  <data name="TractorOverview_PreisBisEuroText" xml:space="preserve">
+    <value>bis</value>
+  </data>
+  <data name="TractorOverview_PreisVonEuroText" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="TractorOverview_rNennleistungkWText" xml:space="preserve">
+    <value>Nennleistung KW</value>
+  </data>
+  <data name="TractorOverview_VerbrauchmaximalgkWhText" xml:space="preserve">
+    <value>Verbrauch maximal</value>
+  </data>
+  <data name="TractorOverview_WendekreisText" xml:space="preserve">
+    <value>Wendekreis</value>
+  </data>
+  <data name="TractorOverview_ZW_DrehzahlenText" xml:space="preserve">
+    <value>Drehzahlen</value>
+  </data>
+  <data name="TractorOverview_ZW_kWText" xml:space="preserve">
+    <value>Maximale Leistung</value>
+  </data>
+  <data name="TractorOverview_ZylinderText" xml:space="preserve">
+    <value>Zylinder</value>
+  </data>
+  <data name="TractorDetailsIII_AhkSchnellverstText" xml:space="preserve">
+    <value>schnellverstellbar</value>
+  </data>
+  <data name="TractorDetailsIII_AutoLenksystemText" xml:space="preserve">
+    <value>Auto-Lenksystem</value>
+  </data>
+  <data name="TractorDetailsIII_AutomatAHKText" xml:space="preserve">
+    <value>Automatische Anhängerkupplung</value>
+  </data>
+  <data name="TractorDetailsIII_CAN_BusText" xml:space="preserve">
+    <value>CAN-Bus</value>
+  </data>
+  <data name="TractorDetailsIII_ISO_BusText" xml:space="preserve">
+    <value>ISO-Bus</value>
+  </data>
+  <data name="TractorDetailsIII_KabinenfederungText" xml:space="preserve">
+    <value>gefedert</value>
+  </data>
+  <data name="TractorDetailsIII_KabinePanelCaption" xml:space="preserve">
+    <value>Kabine</value>
+  </data>
+  <data name="TractorDetailsIII_KabineText" xml:space="preserve">
+    <value>Kabine</value>
+  </data>
+  <data name="TractorDetailsIII_Klima_AnlageText" xml:space="preserve">
+    <value>Klimaanlage</value>
+  </data>
+  <data name="TractorDetailsIII_LautstaerkeText" xml:space="preserve">
+    <value>Lautstärke</value>
+  </data>
+  <data name="TractorDetailsIII_Motor_Getriebe_ManagementText" xml:space="preserve">
+    <value>Motor-Getriebe Management</value>
+  </data>
+  <data name="TractorDetailsIII_Niedrig_KabineText" xml:space="preserve">
+    <value>Niedrig-Kabine</value>
+  </data>
+  <data name="TractorDetailsIII_RueckfahreinrchtgText" xml:space="preserve">
+    <value>Rückfahreinrichtung</value>
+  </data>
+  <data name="TractorDetailsIII_StuetzlastAHKText" xml:space="preserve">
+    <value>Stützlast</value>
+  </data>
+  <data name="TractorDetailsIII_ZugpendelText" xml:space="preserve">
+    <value>Zugpendel</value>
+  </data>
+  <data name="TractorDetailsIII_OelExternText" xml:space="preserve">
+    <value>Ölvorrat extern</value>
+  </data>
+  <data name="TractorDetailsIII_OelGetriebeText" xml:space="preserve">
+    <value>Ölmenge Getriebe</value>
+  </data>
+  <data name="TractorDetailsIII_OelHydraulikText" xml:space="preserve">
+    <value>Ölmenge Hydraulik Serie</value>
+  </data>
+  <data name="TractorDetailsIII_OelMotorText" xml:space="preserve">
+    <value>Ölmenge Motor</value>
+  </data>
+  <data name="TractorDetailsIII_OelwechselGetrStdText" xml:space="preserve">
+    <value>Ölwechsel</value>
+  </data>
+  <data name="TractorDetailsIII_OelwechselMotorStdText" xml:space="preserve">
+    <value>Ölwechsel</value>
+  </data>
+  <data name="TractorDetailsIII_WartungPanelCaption" xml:space="preserve">
+    <value>Wartung</value>
+  </data>
+  <data name="TractorDetailsIII_BreiteText" xml:space="preserve">
+    <value>Breite</value>
+  </data>
+  <data name="TractorDetailsIII_GesamtgewichtText" xml:space="preserve">
+    <value>Gesamtgewicht</value>
+  </data>
+  <data name="TractorDetailsIII_GewichtePanelCaption" xml:space="preserve">
+    <value>Gewicht</value>
+  </data>
+  <data name="TractorDetailsIII_HoeheText" xml:space="preserve">
+    <value>Höhe</value>
+  </data>
+  <data name="TractorDetailsIII_LaengeText" xml:space="preserve">
+    <value>Länge</value>
+  </data>
+  <data name="TractorDetailsIII_LeergewichtText" xml:space="preserve">
+    <value>Leergewicht</value>
+  </data>
+  <data name="TractorDetailsIII_NutzlastText" xml:space="preserve">
+    <value>Nutzlast</value>
+  </data>
+  <data name="TractorDetailsIII_ZulGesamtgewMaxText" xml:space="preserve">
+    <value>Maximal zulässiges Gesamtgewicht</value>
+  </data>
+  <data name="TractorDetailsIII_AchsenPanelCaption" xml:space="preserve">
+    <value>Achsen</value>
+  </data>
+  <data name="TractorDetailsIII_AchsgewichtHintenText" xml:space="preserve">
+    <value>hinten</value>
+  </data>
+  <data name="TractorDetailsIII_AchsgewichtVorneText" xml:space="preserve">
+    <value>Achsgewicht vorne</value>
+  </data>
+  <data name="TractorDetailsIII_AchslasthintenText" xml:space="preserve">
+    <value>hinten</value>
+  </data>
+  <data name="TractorDetailsIII_AchslastVorneText" xml:space="preserve">
+    <value>Achlast vorne</value>
+  </data>
+  <data name="TractorDetailsIII_AllradantriebText" xml:space="preserve">
+    <value>Allradantrieb</value>
+  </data>
+  <data name="TractorDetailsIII_BereifunghintenText" xml:space="preserve">
+    <value>hinten</value>
+  </data>
+  <data name="TractorDetailsIII_BereifungVorneText" xml:space="preserve">
+    <value>Bereifung vorne</value>
+  </data>
+  <data name="TractorDetailsIII_BodenfreiheitText" xml:space="preserve">
+    <value>Bodenfreiheit</value>
+  </data>
+  <data name="TractorDetailsIII_DifferentialspText" xml:space="preserve">
+    <value>Differentialsperre Heck</value>
+  </data>
+  <data name="TractorDetailsIII_DruckluftbremseText" xml:space="preserve">
+    <value>Druckluftbremse</value>
+  </data>
+  <data name="TractorDetailsIII_GewichtsverteilungText" xml:space="preserve">
+    <value>Gewichtsverteilung</value>
+  </data>
+  <data name="TractorDetailsIII_HydrostatLenkungText" xml:space="preserve">
+    <value>Hydrostatisch</value>
+  </data>
+  <data name="TractorDetailsIII_LenkhilfeText" xml:space="preserve">
+    <value>Lenkhilfe</value>
+  </data>
+  <data name="TractorDetailsIII_LenkradVerstellbarText" xml:space="preserve">
+    <value>Lenkrad verstellbar</value>
+  </data>
+  <data name="TractorDetailsIII_RadstandText" xml:space="preserve">
+    <value>Radstand</value>
+  </data>
+  <data name="TractorDetailsIII_SchaltbarkeitHADiffsperreText" xml:space="preserve">
+    <value>Ausführung</value>
+  </data>
+  <data name="TractorDetailsIII_SpurweiteHintenText" xml:space="preserve">
+    <value>hinten</value>
+  </data>
+  <data name="TractorDetailsIII_SpurweiteVorneText" xml:space="preserve">
+    <value>Spurweite vorne</value>
+  </data>
+  <data name="TractorDetailsIII_VADiffsperreText" xml:space="preserve">
+    <value>Front-Selbstsperrdifferential</value>
+  </data>
+  <data name="TractorDetailsIII_VA_FederungText" xml:space="preserve">
+    <value>Vorderachsfederung</value>
+  </data>
+  <data name="TractorDetailsIII_VierradbremseText" xml:space="preserve">
+    <value>Vierradbremse</value>
+  </data>
+  <data name="TractorDetailsIII_WendekreisText" xml:space="preserve">
+    <value>Wendekreis</value>
+  </data>
+  <data name="TractorComparison_GesamtgewichtText" xml:space="preserve">
+    <value>Zulässiges Gesamtgewicht</value>
+  </data>
+  <data name="TractorComparison_GewichtePanelCaption" xml:space="preserve">
+    <value>Gewichte und Maße</value>
+  </data>
+  <data name="TractorComparison_HubkraftMaximalDanText" xml:space="preserve">
+    <value>Hubkraft</value>
+  </data>
+  <data name="TractorComparison_HubwerkKategorieText" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="TractorComparison_HydraulikNenndruckbarText" xml:space="preserve">
+    <value>Nenndruck</value>
+  </data>
+  <data name="TractorComparison_HydraulikPanelCaption" xml:space="preserve">
+    <value>Hydraulik</value>
+  </data>
+  <data name="TractorComparison_HydraulikPumpenleistungLProText" xml:space="preserve">
+    <value>Pumpenleistung</value>
+  </data>
+  <data name="TractorComparison_NutzlastText" xml:space="preserve">
+    <value>Nutzlast</value>
+  </data>
+  <data name="TractorComparison_WendekreisText" xml:space="preserve">
+    <value>Wendekreis</value>
+  </data>
+  <data name="TractorComparison_ZapfwellePanelCaption" xml:space="preserve">
+    <value>Zapfwelle</value>
+  </data>
+  <data name="TractorComparison_ZW_DrehzahlenText" xml:space="preserve">
+    <value>Drehzahlen</value>
+  </data>
+  <data name="TractorComparison_ZW_kWText" xml:space="preserve">
+    <value>Maximale Leistung</value>
+  </data>
+  <data name="TractorComparison_EndgeschwindigkeitKmhText" xml:space="preserve">
+    <value>Höchstgeschwindigkeit</value>
+  </data>
+  <data name="TractorComparison_GaengevorwaertsText" xml:space="preserve">
+    <value>Gangzahl v/r</value>
+  </data>
+  <data name="TractorComparison_GetriebePanelCaption" xml:space="preserve">
+    <value>Getriebe</value>
+  </data>
+  <data name="TractorComparison_GetriebetypText" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="TractorComparison_GetriebeWunschText" xml:space="preserve">
+    <value>Wunsch</value>
+  </data>
+  <data name="TractorComparison_BauartMotorText" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="TractorComparison_BestverbrauchGkwhText" xml:space="preserve">
+    <value>Bestverbrauch</value>
+  </data>
+  <data name="TractorComparison_HubraumCcmText" xml:space="preserve">
+    <value>Hubraum</value>
+  </data>
+  <data name="TractorComparison_KonstantleistungProzentText" xml:space="preserve">
+    <value>Konstantleistung</value>
+  </data>
+  <data name="TractorComparison_KuehlungText" xml:space="preserve">
+    <value>Kühlung</value>
+  </data>
+  <data name="TractorComparison_MotorPanelCaption" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="TractorComparison_NenndrehzahlUminText" xml:space="preserve">
+    <value>Nenndrehzahl</value>
+  </data>
+  <data name="TractorComparison_NennleistungKWText" xml:space="preserve">
+    <value>Nennleistung KW</value>
+  </data>
+  <data name="TractorComparison_NennleistungPSText" xml:space="preserve">
+    <value>Nennleistung PS</value>
+  </data>
+  <data name="TractorComparison_VerbrauchMaximalGkwhText" xml:space="preserve">
+    <value>Verbrauch maximal</value>
+  </data>
+  <data name="TractorComparison_ZylinderZahlText" xml:space="preserve">
+    <value>Zylinder</value>
+  </data>
+  <data name="TractorComparison_MarkierteMaschinenText" xml:space="preserve">
+    <value>Markierte Maschinen</value>
+  </data>
+  <data name="TractorComparison_CleanListButtonCaption" xml:space="preserve">
+    <value>Liste löschen</value>
+  </data>
+  <data name="TractorComparison_CompareTractorsButtonCaption" xml:space="preserve">
+    <value>Schlepper vergleichen</value>
+  </data>
+  <data name="TractorComparison_RemoveSelectedButtonCaption" xml:space="preserve">
+    <value>Markierung entfernen</value>
+  </data>
+  <data name="TractorComparison_ViewTractorButtonCaption" xml:space="preserve">
+    <value>Schlepper anzeigen</value>
+  </data>
+  <data name="MsgError" xml:space="preserve">
+    <value>FEHLER</value>
+  </data>
+  <data name="MsgPdfViewerNotInstalled" xml:space="preserve">
+    <value>Es ist keine PDF-Reader installiert. Um diese Dateien anzeigen zu können, müssen Sie zuerst einen PDF-Reader installieren</value>
+  </data>
+  <data name="prnDocumentFooterCompanyAds" xml:space="preserve">
+    <value>© 2017 Landwirtschaftsverlag GmbH, Postfach: 48084 Münster</value>
+  </data>
+  <data name="prnDocumentHeader" xml:space="preserve">
+    <value>Superkatalog ab 1988</value>
+  </data>
+  <data name="prnKatalogjahr" xml:space="preserve">
+    <value>Katalogjahr: {0}</value>
+  </data>
+  <data name="prnSeiteFormat" xml:space="preserve">
+    <value>Seite {0}</value>
+  </data>
+  <data name="TractorDetailsI_MitText" xml:space="preserve">
+    <value>mit</value>
+  </data>
+  <data name="MsgNoCrytariaSearch" xml:space="preserve">
+    <value>Keine Suchkriterien angegeben. Wollen Sie dennoch suchen?</value>
+  </data>
+  <data name="MsgQuestion" xml:space="preserve">
+    <value>FRAGE</value>
+  </data>
+  <data name="DataGrid_colFronthubwerkUndZW" xml:space="preserve">
+    <value>Fronthubwerk</value>
+  </data>
+  <data name="DataGrid_colGesamtgewicht" xml:space="preserve">
+    <value>Gesamt/kg</value>
+  </data>
+  <data name="DataGrid_colHoehe" xml:space="preserve">
+    <value>Höhe/cm</value>
+  </data>
+  <data name="DataGrid_colHubkraftMaximalDan" xml:space="preserve">
+    <value>Heckhubkraft/daN</value>
+  </data>
+  <data name="DataGrid_colKriechgetriebe" xml:space="preserve">
+    <value>Kriechgetriebe</value>
+  </data>
+  <data name="DataGrid_colLeergewicht" xml:space="preserve">
+    <value>Nutzlast/kg</value>
+  </data>
+  <data name="DataGrid_colLetzteAktualisierung" xml:space="preserve">
+    <value>Jahr</value>
+  </data>
+  <data name="DataGrid_colLsGetriebe" xml:space="preserve">
+    <value>Lastschaltung</value>
+  </data>
+  <data name="DataGrid_colNennleistungKW" xml:space="preserve">
+    <value>kW</value>
+  </data>
+  <data name="DataGrid_colNennleistungPS" xml:space="preserve">
+    <value>PS</value>
+  </data>
+  <data name="DataGrid_colPreisVonEuro" xml:space="preserve">
+    <value>Preis</value>
+  </data>
+  <data name="DataGrid_colSchlepperhersteller" xml:space="preserve">
+    <value>Hersteller</value>
+  </data>
+  <data name="DataGrid_colSchleppertyp" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="DataGrid_colWendekreis" xml:space="preserve">
+    <value>Wendekreis/m</value>
+  </data>
+  <data name="SearchResult_CompareTractorsButtonCaption" xml:space="preserve">
+    <value>Schlepper vergleichen</value>
+  </data>
+  <data name="SearchResult_MarkierteMaschinenText" xml:space="preserve">
+    <value>Markierte Maschinen</value>
+  </data>
+  <data name="SearchResult_PrintTractorsButtonCaption" xml:space="preserve">
+    <value>Liste drucken</value>
+  </data>
+  <data name="SearchResult_RemoveSelectedButtonCaption" xml:space="preserve">
+    <value>Markierung entfernen</value>
+  </data>
+  <data name="SearchResult_ResultsFoundPattern" xml:space="preserve">
+    <value>Gefundene Ergebnisse: {0}</value>
+  </data>
+  <data name="SearchResult_ShowAllResultButtonCaption" xml:space="preserve">
+    <value>Alle Suchergebnisse anzeigen (dies kann einige Minuten dauern)</value>
+  </data>
+  <data name="MsgTooManyResults" xml:space="preserve">
+    <value>Die Anzahl der Suchergebnisse ist sehr hoch. Bis die Anzeige komplett geladen wird kann es einige Minuten dauern. Wollen Sie das Suchergebnis auf 1.000 Traktoren beschränken?</value>
+  </data>
+  <data name="MsgAllBrandsUnselected" xml:space="preserve">
+    <value>Bitte wählen Sie mindestens einen Hersteller aus</value>
+  </data>
+  <data name="MsgAllYearsUnselected" xml:space="preserve">
+    <value>Bitte wählen Sie mindestens ein Jahr aus.</value>
+  </data>
+  <data name="MsgNoSearchCriterias" xml:space="preserve">
+    <value>Bitte wählen Sie mindestens ein Jahr und einen Hersteller aus.</value>
+  </data>
+  <data name="DataGrid_colSatz" xml:space="preserve">
+    <value>Satz</value>
+  </data>
+  <data name="MsgSaveMarkedTractors" xml:space="preserve">
+    <value>Wollen Sie die markierten Schlepper speichern?</value>
+  </data>
+  <data name="Msg_PleaseWait" xml:space="preserve">
+    <value>Bitte Warten ...</value>
+  </data>
+  <data name="PrnZWDoubleLine" xml:space="preserve">
+    <value>Drehzahl des Motors bei{0}Normdrehzahl der Zapfwelle</value>
+  </data>
+  <data name="TractorDetailsI_Voll_LS_GetriebeText" xml:space="preserve">
+    <value>Voll lastschaltung</value>
+  </data>
+  <data name="Brands_MainWindowButtonText" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="About_MainWindowButtonText" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="MsgInformation" xml:space="preserve">
+    <value>INFORMATION</value>
+  </data>
+  <data name="MsgNoDisc" xml:space="preserve">
+    <value>Bitte legen Sie die Disc Schleppermarkt ein.</value>
+  </data>
+  <data name="Unit_Hour" xml:space="preserve">
+    <value>Stunden</value>
+  </data>
+  <data name="Unit_NumberOfTanks" xml:space="preserve">
+    <value>Anzahl Tanks</value>
+  </data>
+  <data name="Unit_Backward" xml:space="preserve">
+    <value>rückwärts</value>
+  </data>
+  <data name="Unit_from" xml:space="preserve">
+    <value>ab</value>
+  </data>
+  <data name="Unit_Hours" xml:space="preserve">
+    <value>Betriebsstunden</value>
+  </data>
+  <data name="SearchGen_SwitchBrandsCaption" xml:space="preserve">
+    <value>Alle Hersteller</value>
+  </data>
+  <data name="SearchGen_SwitchStateHint" xml:space="preserve">
+    <value>Aus/An</value>
+  </data>
+  <data name="SearchGen_SwitchYearCaption" xml:space="preserve">
+    <value>Alle Jahre</value>
+  </data>
+  <data name="Comparison_BauartMotor" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="Comparison_Bestverbrauch" xml:space="preserve">
+    <value>Bestverbrauch</value>
+  </data>
+  <data name="Comparison_BestverbrauchbeiDrehzahl" xml:space="preserve">
+    <value>bei Drehzahl</value>
+  </data>
+  <data name="Comparison_BohrungxHub" xml:space="preserve">
+    <value>Bohrung x Hub</value>
+  </data>
+  <data name="Comparison_C30kmh" xml:space="preserve">
+    <value>30 km/h</value>
+  </data>
+  <data name="Comparison_C40kmh" xml:space="preserve">
+    <value>40 km/h</value>
+  </data>
+  <data name="Comparison_C50kmh" xml:space="preserve">
+    <value>50 km/h</value>
+  </data>
+  <data name="Comparison_C60kmhundmehr" xml:space="preserve">
+    <value>&gt; 60 km/h</value>
+  </data>
+  <data name="Comparison_DrehmomentanstiegProzent" xml:space="preserve">
+    <value>Drehmomentanstieg</value>
+  </data>
+  <data name="Comparison_DrehzahlabfallProzent" xml:space="preserve">
+    <value>Drehzahlabfall</value>
+  </data>
+  <data name="Comparison_Endgeschwindigkeitkmh" xml:space="preserve">
+    <value>Höchstgeschwindigkeit</value>
+  </data>
+  <data name="Comparison_Gaenge4bis12kmh" xml:space="preserve">
+    <value>Gänge 4 bis 12 km/h</value>
+  </data>
+  <data name="Comparison_Gaengeueber15kmh" xml:space="preserve">
+    <value>über 15 km/h</value>
+  </data>
+  <data name="Comparison_Gangzah" xml:space="preserve">
+    <value>Gangzahl</value>
+  </data>
+  <data name="Comparison_GetriebePanelTitle" xml:space="preserve">
+    <value>Getriebe</value>
+  </data>
+  <data name="Comparison_Getriebevolllastschaltbar" xml:space="preserve">
+    <value>Voll lastschaltung</value>
+  </data>
+  <data name="Comparison_GetriebeWunsch" xml:space="preserve">
+    <value>auf Wunsch</value>
+  </data>
+  <data name="Comparison_Hubraumccm" xml:space="preserve">
+    <value>Hubraum</value>
+  </data>
+  <data name="Comparison_KatalogjahrPanelTitle" xml:space="preserve">
+    <value>Katalogjahr</value>
+  </data>
+  <data name="Comparison_Konstantleistungsbereich" xml:space="preserve">
+    <value>Konstantleistungsbereich</value>
+  </data>
+  <data name="Comparison_Kriechgetriebe" xml:space="preserve">
+    <value>Kriechgetriebe</value>
+  </data>
+  <data name="Comparison_Kuehlung" xml:space="preserve">
+    <value>Kühlung</value>
+  </data>
+  <data name="Comparison_LetzteAktualisierung" xml:space="preserve">
+    <value>Katalogjahr</value>
+  </data>
+  <data name="Comparison_LSAnzahlStufen" xml:space="preserve">
+    <value>Anzahl Stufen</value>
+  </data>
+  <data name="Comparison_LS_Getriebe" xml:space="preserve">
+    <value>Lastschaltung</value>
+  </data>
+  <data name="Comparison_MaximalleistungKW" xml:space="preserve">
+    <value>Höchstleistung</value>
+  </data>
+  <data name="Comparison_MDmax" xml:space="preserve">
+    <value>Drehmoment max</value>
+  </data>
+  <data name="Comparison_MittlererOECD_VerbrauchgkWh" xml:space="preserve">
+    <value>Mittlerer OECD-Verbrauch</value>
+  </data>
+  <data name="Comparison_MotorPanelTitle" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="Comparison_NenndrehzahlUmin" xml:space="preserve">
+    <value>Nenndrehzahl</value>
+  </data>
+  <data name="Comparison_Nennleistung" xml:space="preserve">
+    <value>Motorleistung</value>
+  </data>
+  <data name="Comparison_StufenlosesCVT" xml:space="preserve">
+    <value>stufenlos</value>
+  </data>
+  <data name="Comparison_Synchronisation" xml:space="preserve">
+    <value>Synchronisation</value>
+  </data>
+  <data name="Comparison_Tanks" xml:space="preserve">
+    <value>Tankinhalt</value>
+  </data>
+  <data name="Comparison_UberleistungkW" xml:space="preserve">
+    <value>Überleistung</value>
+  </data>
+  <data name="Comparison_VerbrauchmaximalgkWh" xml:space="preserve">
+    <value>Verbrauch maximal</value>
+  </data>
+  <data name="Comparison_Wendegetriebe" xml:space="preserve">
+    <value>Wendegetriebe</value>
+  </data>
+  <data name="Comparison_Wendeschaltung" xml:space="preserve">
+    <value>Wendeschaltung</value>
+  </data>
+  <data name="Comparison_WGLastschaltbar" xml:space="preserve">
+    <value>lastschaltbar</value>
+  </data>
+  <data name="Comparison_WGVorwahlbar" xml:space="preserve">
+    <value>vorwählbar</value>
+  </data>
+  <data name="Comparison_ZahlderSchalthebel" xml:space="preserve">
+    <value>Zahl Schalthebel</value>
+  </data>
+  <data name="Comparison_Zylinder" xml:space="preserve">
+    <value>Zylinder</value>
+  </data>
+  <data name="Comparison_Abreisskupplungen" xml:space="preserve">
+    <value>Abreißkupplungen</value>
+  </data>
+  <data name="Comparison_AchsenPanelTitle" xml:space="preserve">
+    <value>Achsen</value>
+  </data>
+  <data name="Comparison_Achsgewicht" xml:space="preserve">
+    <value>Achsgewicht vorne/hinten</value>
+  </data>
+  <data name="Comparison_Achslast" xml:space="preserve">
+    <value>Achslast vorne/hinten</value>
+  </data>
+  <data name="Comparison_AHKschnellverst" xml:space="preserve">
+    <value>schnellverstellbar</value>
+  </data>
+  <data name="Comparison_Allradantrieb" xml:space="preserve">
+    <value>Allradantrieb</value>
+  </data>
+  <data name="Comparison_AnzahlSteuerventile" xml:space="preserve">
+    <value>Anzahl Steuerventile</value>
+  </data>
+  <data name="Comparison_ArtHydrauliksystem" xml:space="preserve">
+    <value>Hydrauliksystem</value>
+  </data>
+  <data name="Comparison_Ausstattung" xml:space="preserve">
+    <value>Ausstattung</value>
+  </data>
+  <data name="Comparison_AutoLenksystem" xml:space="preserve">
+    <value>Auto-Lenksystem</value>
+  </data>
+  <data name="Comparison_AutomatAHK" xml:space="preserve">
+    <value>Autom. Anhängerkupplung</value>
+  </data>
+  <data name="Comparison_BedienungHeckzapfwelle" xml:space="preserve">
+    <value>Fernbedienung Heck</value>
+  </data>
+  <data name="Comparison_Bereifunghinten" xml:space="preserve">
+    <value>hinten</value>
+  </data>
+  <data name="Comparison_Bereifungvorne" xml:space="preserve">
+    <value>Bereifung vorne</value>
+  </data>
+  <data name="Comparison_Besonderes" xml:space="preserve">
+    <value>Besonderheiten</value>
+  </data>
+  <data name="Comparison_Bodenfreiheit" xml:space="preserve">
+    <value>Bodenfreiheit</value>
+  </data>
+  <data name="Comparison_Breite" xml:space="preserve">
+    <value>Breite</value>
+  </data>
+  <data name="Comparison_CAN_Bus" xml:space="preserve">
+    <value>CAN-Bus</value>
+  </data>
+  <data name="Comparison_Differentialsp" xml:space="preserve">
+    <value>Differentialsperre Heck</value>
+  </data>
+  <data name="Comparison_Druckluftbremse" xml:space="preserve">
+    <value>Druckluftbremse</value>
+  </data>
+  <data name="Comparison_EHR" xml:space="preserve">
+    <value>EHR</value>
+  </data>
+  <data name="Comparison_FernbedienungimHeck" xml:space="preserve">
+    <value>Fernbedienung Heck</value>
+  </data>
+  <data name="Comparison_FronthubwerkHubkraftdaN" xml:space="preserve">
+    <value>Fronthubkraft</value>
+  </data>
+  <data name="Comparison_FronthubwerkundZW" xml:space="preserve">
+    <value>Fronthubwerk / Frontzapfwelle</value>
+  </data>
+  <data name="Comparison_Front_ZWUmin" xml:space="preserve">
+    <value>Drehzahl bei Frontzapfwelle</value>
+  </data>
+  <data name="Comparison_Gesamtgewicht" xml:space="preserve">
+    <value>Zulässiges Gesamtgewicht</value>
+  </data>
+  <data name="Comparison_GewichtPanelTitle" xml:space="preserve">
+    <value>Gewicht</value>
+  </data>
+  <data name="Comparison_Gewichtsverteilung" xml:space="preserve">
+    <value>Gewichtsverteilung</value>
+  </data>
+  <data name="Comparison_Hoehe" xml:space="preserve">
+    <value>Höhe</value>
+  </data>
+  <data name="Comparison_HubkraftdurchgehenddaN" xml:space="preserve">
+    <value>durchgehend</value>
+  </data>
+  <data name="Comparison_HubkraftmaximaldaN" xml:space="preserve">
+    <value>Hubkraft maximal</value>
+  </data>
+  <data name="Comparison_HubwerkKategorie" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="Comparison_HubwerkPanelTitle" xml:space="preserve">
+    <value>Hubwerk</value>
+  </data>
+  <data name="Comparison_HydraulikNenndruckbar" xml:space="preserve">
+    <value>Nenndruck</value>
+  </data>
+  <data name="Comparison_HydraulikPanelTitle" xml:space="preserve">
+    <value>Hydraulik</value>
+  </data>
+  <data name="Comparison_HydraulikPumpenleistunglproMin" xml:space="preserve">
+    <value>Pumpenleistung</value>
+  </data>
+  <data name="Comparison_HydrostatLenkung" xml:space="preserve">
+    <value>Hydrostatisch</value>
+  </data>
+  <data name="Comparison_ISO_Bus" xml:space="preserve">
+    <value>ISO-Bus</value>
+  </data>
+  <data name="Comparison_Kabine" xml:space="preserve">
+    <value>Kabine</value>
+  </data>
+  <data name="Comparison_Kabinenfederung" xml:space="preserve">
+    <value>gefedert</value>
+  </data>
+  <data name="Comparison_KabinePanelTitle" xml:space="preserve">
+    <value>Kabine</value>
+  </data>
+  <data name="Comparison_Klima_Anlage" xml:space="preserve">
+    <value>Klimaanlage</value>
+  </data>
+  <data name="Comparison_Laenge" xml:space="preserve">
+    <value>Länge</value>
+  </data>
+  <data name="Comparison_Lageregelung" xml:space="preserve">
+    <value>Lage-Regelung</value>
+  </data>
+  <data name="Comparison_Lautstaerke" xml:space="preserve">
+    <value>Lautstärke</value>
+  </data>
+  <data name="Comparison_Leergewicht" xml:space="preserve">
+    <value>Leergewicht</value>
+  </data>
+  <data name="Comparison_Lenkhilfe" xml:space="preserve">
+    <value>Lenkhilfe</value>
+  </data>
+  <data name="Comparison_Lenkradverstellbar" xml:space="preserve">
+    <value>Lenkrad verstellbar</value>
+  </data>
+  <data name="Comparison_Mischregelung" xml:space="preserve">
+    <value>Misch-Regelung</value>
+  </data>
+  <data name="Comparison_Niedrig_Kabine" xml:space="preserve">
+    <value>Niedrig Kabine</value>
+  </data>
+  <data name="Comparison_Nutzlast" xml:space="preserve">
+    <value>Nutzlast</value>
+  </data>
+  <data name="Comparison_Oberlenker_Regelung" xml:space="preserve">
+    <value>Oberlenker-Regelung</value>
+  </data>
+  <data name="Comparison_Oelextern" xml:space="preserve">
+    <value>Ölvorrat extern</value>
+  </data>
+  <data name="Comparison_OelGetriebe" xml:space="preserve">
+    <value>Ölmenge Getriebe</value>
+  </data>
+  <data name="Comparison_OelMotor" xml:space="preserve">
+    <value>Ölmenge Motor</value>
+  </data>
+  <data name="Comparison_OelwechselGetrStd" xml:space="preserve">
+    <value>Ölwechsel</value>
+  </data>
+  <data name="Comparison_OelwechselMotorStd" xml:space="preserve">
+    <value>Ölwechset</value>
+  </data>
+  <data name="Comparison_PreisbisEuro" xml:space="preserve">
+    <value>Preis bis</value>
+  </data>
+  <data name="Comparison_PreisePanelTitle" xml:space="preserve">
+    <value>Preise</value>
+  </data>
+  <data name="Comparison_PreisvonEuro" xml:space="preserve">
+    <value>Preis von</value>
+  </data>
+  <data name="Comparison_Pruefberichte" xml:space="preserve">
+    <value>Prüfberichte</value>
+  </data>
+  <data name="Comparison_Radstand" xml:space="preserve">
+    <value>Radstand</value>
+  </data>
+  <data name="Comparison_Rueckfahreinrchtg" xml:space="preserve">
+    <value>Rückfahreinrichtung</value>
+  </data>
+  <data name="Comparison_Schlupfregelung" xml:space="preserve">
+    <value>Schlupf-Regelung</value>
+  </data>
+  <data name="Comparison_Schnellkuppler" xml:space="preserve">
+    <value>Schnellkuppler</value>
+  </data>
+  <data name="Comparison_Schwimmregelung" xml:space="preserve">
+    <value>Schwimm-Regelung</value>
+  </data>
+  <data name="Comparison_SonstigesPanelTitle" xml:space="preserve">
+    <value>Sonstiges</value>
+  </data>
+  <data name="Comparison_Spar_ZW" xml:space="preserve">
+    <value>Sparzapfwelle</value>
+  </data>
+  <data name="Comparison_Spurweitehinten" xml:space="preserve">
+    <value>hinten</value>
+  </data>
+  <data name="Comparison_Spurweitevorne" xml:space="preserve">
+    <value>Spurweite vorne</value>
+  </data>
+  <data name="Comparison_StuetzlastAHK" xml:space="preserve">
+    <value>Stützlast</value>
+  </data>
+  <data name="Comparison_Unterlenker_Regelung" xml:space="preserve">
+    <value>Unterlenker-Regelung</value>
+  </data>
+  <data name="Comparison_VADiffsperre" xml:space="preserve">
+    <value>Front-Selbstsperrdifferential</value>
+  </data>
+  <data name="Comparison_VA_Federung" xml:space="preserve">
+    <value>Vorderachsfederung</value>
+  </data>
+  <data name="Comparison_Vierradbremse" xml:space="preserve">
+    <value>Vierradbremse</value>
+  </data>
+  <data name="Comparison_WartungPanelTitle" xml:space="preserve">
+    <value>Wartung</value>
+  </data>
+  <data name="Comparison_Weg_ZW" xml:space="preserve">
+    <value>Wegzapfwelle</value>
+  </data>
+  <data name="Comparison_Wendekreis" xml:space="preserve">
+    <value>Wendekreis</value>
+  </data>
+  <data name="Comparison_ZapfwellePanelTitle" xml:space="preserve">
+    <value>Zapfwelle</value>
+  </data>
+  <data name="Comparison_Zugpendel" xml:space="preserve">
+    <value>Zugpendel</value>
+  </data>
+  <data name="Comparison_Zugwiderstandsregelung" xml:space="preserve">
+    <value>Zugkraft-Regelung</value>
+  </data>
+  <data name="Comparison_ZulGesamtgewmax" xml:space="preserve">
+    <value>Maximal zul. Gesamtgewicht</value>
+  </data>
+  <data name="Comparison_Zusatz_Hubzylinder" xml:space="preserve">
+    <value>Zusatzzylinder</value>
+  </data>
+  <data name="Comparison_ZWlastschaltbar" xml:space="preserve">
+    <value>lastschaltbar</value>
+  </data>
+  <data name="Comparison_ZW_Bauart" xml:space="preserve">
+    <value>Bauart</value>
+  </data>
+  <data name="Comparison_ZW_Drehzahlen" xml:space="preserve">
+    <value>Drehzahlen</value>
+  </data>
+  <data name="Comparison_ZW_kW" xml:space="preserve">
+    <value>Max. Zapfwellenleistung</value>
+  </data>
+  <data name="Comparison_ZW_Mot_Umin_1000" xml:space="preserve">
+    <value>Drehzahl bei Zapfw. 1000</value>
+  </data>
+  <data name="Comparison_ZW_Mot_Umin_1000E" xml:space="preserve">
+    <value>Drehzahl bei Zapfw. 1000E</value>
+  </data>
+  <data name="Comparison_ZW_Mot_Umin_540" xml:space="preserve">
+    <value>Drehzahl bei Zapfw. 540</value>
+  </data>
+  <data name="Comparison_ZW_Mot_Umin_540E" xml:space="preserve">
+    <value>Drehzahl bei Zapfw. 540E</value>
+  </data>
+  <data name="Comparison_ZW_Profil" xml:space="preserve">
+    <value>Zapfwellenprofil</value>
+  </data>
+  <data name="Comparison_ZW_Stummelzahl" xml:space="preserve">
+    <value>Stummelzahl</value>
+  </data>
+  <data name="Comparison_ZW_Uminmaximal" xml:space="preserve">
+    <value>Maximale Drehzahl</value>
+  </data>
+  <data name="Comparison_CompanyData" xml:space="preserve">
+    <value>© 2017 Landwirtschaftsverlag GmbH, Postfach: 48084 Münster</value>
+  </data>
+  <data name="Comparison_DocumentTitle" xml:space="preserve">
+    <value>Schleppervergleich</value>
+  </data>
+  <data name="Comparison_ProgramName" xml:space="preserve">
+    <value>Schleppermarkt 2017</value>
+  </data>
+  <data name="Tractor_BackButtonText" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="SearchResult_CleanListButtonCaption" xml:space="preserve">
+    <value>Liste löschen</value>
+  </data>
+  <data name="MsgPdfViewNeedsDVD" xml:space="preserve">
+    <value>Um die PDF-Datei zu öffnen legen Sie bitte die Schleppermarkt DVD  in Ihr DVD-Laufwerk ein.</value>
+  </data>
+  <data name="MsgNoAssosiatedEmailTool" xml:space="preserve">
+    <value>Verknüpfung zu Mailprogramm fehlt, Mail kann nicht gesendet werden.</value>
+  </data>
+  <data name="MsgNoImageInsertDVD" xml:space="preserve">
+    <value>Um die Bilddaten anzuzeigen,legen Sie bitte die Schleppermarkt DVD in Ihr DVD-Laufwerk ein.</value>
+  </data>
+  <data name="MsgDatabaseProblem" xml:space="preserve">
+    <value>Leider ist ein Problem mit der Datenbank aufgetreten. Bitte starten Sie die Applikation erneut. Wenn das Problem wiederholt auftritt, kontaktieren Sie bitte redaktion@profi.de</value>
+  </data>
+  <data name="TractorDetailsI_AdBlueTankinhalt" xml:space="preserve">
+    <value>AdBlue Tankinhalt</value>
+  </data>
+  <data name="TractorDetailsI_Dieseloxydationskatalysator" xml:space="preserve">
+    <value>Dieseloxydationskatalysator</value>
+  </data>
+  <data name="TractorDetailsI_Dieselpartikelfilter" xml:space="preserve">
+    <value>Dieselpartikelfilter</value>
+  </data>
+  <data name="TractorDetailsI_SCRKatalysator" xml:space="preserve">
+    <value>SCR Katalysator</value>
+  </data>
+  <data name="TractorDetailsIII_OelHydraulikOptionText" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="TractorDetailsIII_OelwechselHydrStdText" xml:space="preserve">
+    <value>Ölwechsel</value>
+  </data>
+  <data name="MsgNoPictureAvailable" xml:space="preserve">
+    <value>Kein Bild verfügbar</value>
+  </data>
+</root>

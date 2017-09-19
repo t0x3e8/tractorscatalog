@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9502C151-8113-4A4B-AA19-263673C026C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enceladus.UIToolbox</RootNamespace>
+    <AssemblyName>UIToolbox</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Debug</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BorderedPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BrandTextBlock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BrandTextBlock.Designer.cs">
+      <DependentUpon>BrandTextBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrandInfoBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BrandInfoBox.Designer.cs">
+      <DependentUpon>BrandInfoBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrandsPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BrandsPanel.Designer.cs">
+      <DependentUpon>BrandsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBoxLogics.cs" />
+    <Compile Include="ControlLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlLabel.Designer.cs">
+      <DependentUpon>ControlLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DateControl.Designer.cs">
+      <DependentUpon>DateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Defines.cs" />
+    <Compile Include="DisappearingLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoubleBufferedPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoubleBufferedPictureBox.Designer.cs">
+      <DependentUpon>DoubleBufferedPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawingToolbox.cs" />
+    <Compile Include="DualScroller.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DualScroller.Designer.cs">
+      <DependentUpon>DualScroller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enums.cs" />
+    <Compile Include="GradientButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GradientButton.Designer.cs">
+      <DependentUpon>GradientButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ICheckBoxLogic.cs" />
+    <Compile Include="IconButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IconButton.Designer.cs">
+      <DependentUpon>IconButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="INavigationButton.cs" />
+    <Compile Include="InputBoxLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ISizeCalculate.cs" />
+    <Compile Include="IToggler.cs" />
+    <Compile Include="NavigationIconButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PenSetConstructor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedCheckBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RedCheckBox.Designer.cs">
+      <DependentUpon>RedCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedGradientButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RedInputBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RedInputBox.Designer.cs">
+      <DependentUpon>RedInputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRadioBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RedRadioBox.Designer.cs">
+      <DependentUpon>RedRadioBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InfoBox.Designer.cs">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScrollerBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ScrollerBase.Designer.cs">
+      <DependentUpon>ScrollerBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionChangedEventArgs.cs" />
+    <Compile Include="GradientIconButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GradientIconButton.Designer.cs">
+      <DependentUpon>GradientIconButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingleRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SingleRecord.Designer.cs">
+      <DependentUpon>SingleRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingleScroller.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SingleScroller.Designer.cs">
+      <DependentUpon>SingleScroller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringManager.cs" />
+    <Compile Include="SwitchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SwitchControl.Designer.cs">
+      <DependentUpon>SwitchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tab.Designer.cs">
+      <DependentUpon>Tab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabBoundariesFactory.cs" />
+    <Compile Include="TabsBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabsBar.Designer.cs">
+      <DependentUpon>TabsBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TractorStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TractorStatus.Designer.cs">
+      <DependentUpon>TractorStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransparentTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransparentTableLayoutPanel.Designer.cs">
+      <DependentUpon>TransparentTableLayoutPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitingBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BrandTextBlock.resx">
+      <DependentUpon>BrandTextBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputBoxLabel.resx">
+      <DependentUpon>InputBoxLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleRecord.resx">
+      <DependentUpon>SingleRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabsBar.resx">
+      <DependentUpon>TabsBar.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedTick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Handle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ActiveTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InactiveTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnFirst.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnLast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPrevious.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\API\API.csproj">
+      <Project>{09EE91B1-8360-4D6B-9064-4DB168D60EF3}</Project>
+      <Name>API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StringLibrary\StringLibrary.csproj">
+      <Project>{42FE757C-6F2D-44C2-8247-3A4F89E71B01}</Project>
+      <Name>StringLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallButtonClick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallButtonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark_add_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeftBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SwitchBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball_gray11x11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball_red11x11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball_red12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball_red8x8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ActiveLittleTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InactiveLittleTab.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
